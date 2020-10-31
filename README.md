@@ -45,4 +45,3 @@ Before the model is ready for training, it needs a few more settings. These are 
 - Next, we'll compare how the model performs on the test dataset
 </br>
 - With the model trained, you can use it to make predictions about some images. The model's linear outputs, logits. Attach a softmax layer to convert the logits to probabilities, which are easier to interpret.
-
