@@ -11,7 +11,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 ```  
 - Then we import the Fashion MNIST Dataset.
-- We just exp'ore the dataset now.
+- We just explore the dataset now.
   1. Length of training data
   2. Length of testing data
   3. Shape
@@ -26,9 +26,12 @@ Before the model is ready for training, it needs a few more settings. These are 
   1. Loss function —This measures how accurate the model is during training. You want to minimize this function to "steer" the model in the right direction.
   2. Optimizer —This is how the model is updated based on the data it sees and its loss function.
   3. Metrics —Used to monitor the training and testing steps. The following example uses accuracy, the fraction of the images that are correctly classified.
-- Train The model \
+- Train The model 
   1. Feed the training data to the model. In this example, the training data is in the train_images and train_labels arrays.
   2. The model learns to associate images and labels.
   3. You ask the model to make predictions about a test set—in this example, the test_images array.
   4. Verify that the predictions match the labels from the test_labels array.
- 
+- To start training, call the model.fit method
+- Next, we'll compare how the model performs on the test dataset
+- With the model trained, you can use it to make predictions about some images. The model's linear outputs, logits. Attach a softmax layer to convert the logits to probabilities, which are easier to interpret.
+
