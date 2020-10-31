@@ -10,8 +10,8 @@ import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt]
 ```  
-- Then we import the Fashion MNIST Dataset \
-- We just expore the dataset \
+- Then we import the Fashion MNIST Dataset 
+- We just expore the dataset 
   1. Length of training data
   2. Length of testing data
   3. Shape
